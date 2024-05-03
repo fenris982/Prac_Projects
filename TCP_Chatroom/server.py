@@ -1,7 +1,7 @@
-import threading
+import threading  # Import the threading module for handling concurrent execution
 import socket
 
-host = '0.0.0.0' #localhost
+host = '0.0.0.0'  # Localhost
 port = 50123
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -11,10 +11,12 @@ server.listen()
 clients = []
 nicknames = []
 
+# Function to broadcast a message to all clients
 def broadcast(message):
     for client in clients:
         client.send(message)
     
+# Function to handle individual client connections
 def handle(client):
     while True:
         try:
@@ -29,6 +31,7 @@ def handle(client):
             nicknames.remove(nickname)
             break
     
+# Function to accept and manage incoming connections
 def receive():
     while True:
         # Accept Connection
@@ -49,7 +52,6 @@ def receive():
         # Start Handling Thread For Client
         thread = threading.Thread(target=handle, args=(client,))
         thread.start()
-        
 
-print("Server is listening...")        
+print("Server is listening...")
 receive()
