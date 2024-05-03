@@ -1,0 +1,51 @@
+TCP Chatroom Client
+
+This Python script is a TCP client designed to connect to a chatroom server. It allows users to choose a nickname and participate in real-time chat with other users in the same chatroom.
+
+Features:
+
+Allows users to choose a nickname upon connection.
+Sends and receives messages from the chatroom server.
+Utilizes threading for concurrent execution of sending and receiving messages.
+Instructions:
+
+Run the script.
+Choose a nickname when prompted.
+Start chatting with other users in the chatroom.
+Requirements:
+
+Python 3.x
+The script utilizes the socket and threading modules, which are included in Python's standard library.
+Usage:
+
+bash
+Copy code
+python chatroom_client.py
+TCP Chatroom Server
+
+This Python script acts as a TCP server for a chatroom. It listens for incoming connections from clients and facilitates real-time communication among connected users.
+
+Features:
+
+Listens for incoming connections on a specified port.
+Accepts multiple clients and assigns nicknames.
+Broadcasts messages to all connected clients.
+Handles client disconnections gracefully.
+Instructions:
+
+Run the script.
+Clients can connect to the server using the server's IP address and port.
+Requirements:
+
+Python 3.x
+The script utilizes the socket and threading modules, which are included in Python's standard library.
+Usage:
+
+bash
+Copy code
+python chatroom_server.py
+Note:
+
+Ensure that the client and server scripts are run on the same network.
+Clients should connect to the server using the server's IP address and the specified port.
+This chatroom implementation is a basic example and may require additional features for production use, such as authentication, encryption, and error handling.
