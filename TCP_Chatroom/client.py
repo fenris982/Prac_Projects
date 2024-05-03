@@ -6,7 +6,7 @@ nickname = input("Choose a nickname: ")
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client.connect(('127.0.0.1', 50123))
 
-def recieve():
+def receive():
     while True:
         try:
             message = client.recv(1024).decode('ascii')
@@ -24,8 +24,8 @@ def write():
         message = f'{nickname}: {input("")}'
         client.send(message.encode('ascii'))
         
-recieve_thread = threading.Thread(target=recieve)
-recieve_thread.start
+receive_thread = threading.Thread(target=receive)
+receive_thread.start()
 
 write_thread = threading.Thread(target=write)
-write_thread.start
+write_thread.start()
