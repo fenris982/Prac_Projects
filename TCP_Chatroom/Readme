@@ -20,9 +20,8 @@ Python 3.x
 The script utilizes the socket and threading modules, which are included in Python's standard library.
 Usage:
 
-bash
 Copy code
-python chatroom_client.py
+python client.py
 TCP Chatroom Server
 
 This Python script acts as a TCP server for a chatroom. It listens for incoming connections from clients and facilitates real-time communication among connected users.
@@ -43,9 +42,8 @@ Python 3.x
 The script utilizes the socket and threading modules, which are included in Python's standard library.
 Usage:
 
-bash
 Copy code
-python chatroom_server.py
+python3 server.py
 Note:
 
 Ensure that the client and server scripts are run on the same network.
