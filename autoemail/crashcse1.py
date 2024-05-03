@@ -12,11 +12,11 @@ server.ehlo()
 with open('pw.txt', 'r') as f:
     password = f.read()
 
-server.login('steven.davis982@outlook.com', password)
+server.login('*@*.com', password)
 
 msg = MIMEMultipart()
-msg['From'] = 'Fenris'
-msg['To'] = 'pompeys-soldier@live.co.uk'
+msg['From'] = '#nicknamehere'
+msg['To'] = '*@*.com'
 msg['Subject'] = 'Just a test email!'
 
 with open('message.txt', 'r') as f:
@@ -35,4 +35,4 @@ p.add_header('Content-Disposition', f'attachment; filename={filename}')
 msg.attach(p)
 
 text = msg.as_string()
-server.sendmail('steven.davis982@outlook.com', 'pompeys-soldier@live.co.uk', text)
+server.sendmail('From Email', 'Target Email', text)
