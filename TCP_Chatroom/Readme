@@ -1,5 +1,7 @@
 TCP Chatroom Client
 
+To test the chatroom. Download both server and client files. You will require 3 terminal windows open. Run the server and then two clients in their own terminals to prove concept.
+
 This Python script is a TCP client designed to connect to a chatroom server. It allows users to choose a nickname and participate in real-time chat with other users in the same chatroom.
 
 Features:
