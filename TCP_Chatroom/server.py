@@ -48,5 +48,5 @@ def recieve():
         thread.start()
         
 
-print("Server is linstening...")        
+print("Server is listening...")        
 recieve()
