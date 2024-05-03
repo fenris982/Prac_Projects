@@ -1,5 +1,0 @@
-This is a test message!
-
-Hello World!
-
-This is a mail sent with Python!
