@@ -15,16 +15,24 @@ fruity_dict =  {1 : "Apple",
 job_tuple = ("Police", "Fireman", "Teacher", "Doctor")
 setlist = ['Ford Mustang', 'Honda Civic', 'Toyota Corolla','Honda Civic', 'BMW 3 Series', 'Audi A4', 'Mercedes-Benz C-Class', 'Chevrolet Camaro', 'Toyota Corolla', 'Volkswagen Golf', 'Subaru Outback', 'Audi A4']
 
+#############################################
 ###     Task 1 - Assigning Variables      ###
-### Assign the Variables "new_name1" and  ###
-### "new_name2" to names of your choice.  ###
-### ensure you do not use names that are  ###
-### currently in the "names" variable!    ###
+### Assign the Variables "new_name1" to   ###
+### value "Steve" and "new_name2" to the  ###
+### name of your choice. Ensure you do not###
+### use a name that is currently in the   ###
+### "names" variable!                     ###
+#############################################
 ###       Write your code below           ###
+#############################################
 
 
 
+
+
+#############################################
 ###     DO NOT EDIT BELOW THIS LINE       ###
+#############################################
 
 print("Task 1 Results")
 
@@ -39,7 +47,8 @@ def test_task_1():
         
 
 test_task_1()
-    
+
+###############################################    
 ###     Task 2 - Creating f strings         ###
 ### Create an f string and assign it to     ###
 ### the variable "hello_friend". The        ###
@@ -47,11 +56,15 @@ test_task_1()
 ### is nice to meet you." Replace x and y   ###
 ### with new_name1 and new_name2            ###
 ### DO NOT use the "string".format() method ### 
+###############################################
 ###       Write your code below             ###
+###############################################
 
 
 
+#############################################
 ###     DO NOT EDIT BELOW THIS LINE       ###
+#############################################
 
 print("Task 2 Results")
 
@@ -72,12 +85,14 @@ def test_task_2():
 
 test_task_2()
 
+###############################################
 ###     Task 3 - Arithmetic Functions       ###
 ### Using the numbers_ints variable at the  ###
 ### top of the script, complete the tasks   ###
 ### that are indicated in the comments below###
+###############################################
 ###       Write your code below             ###
-
+###############################################
 
 #Create the sum of all the numbers and assign it to the variable below:
 
@@ -95,7 +110,9 @@ sorted_ints =
 
 divide_int =
 
+#############################################
 ###     DO NOT EDIT BELOW THIS LINE       ###
+#############################################
 
 print("Task 3 Results")
 
@@ -127,11 +144,14 @@ def test_task_3():
     return score
 test_task_3()
 
+###############################################
 ###     Task 4 - Working with lists         ###
 ### Using the names variable at the         ###
 ### top of the script, complete the tasks   ###
 ### that are indicated in the comments below###
+###############################################
 ###       Write your code below             ###
+###############################################
 
 #slice the list at the first four names and assign it to the variable below.
 
@@ -145,8 +165,9 @@ last_three =
 
 new_names = names ###<<< DO NOT EDIT THIS LINE
 
-
+#############################################
 ###     DO NOT EDIT BELOW THIS LINE       ###
+#############################################
 
 print("Task 4 Results")
 
@@ -173,12 +194,14 @@ def test_task_4():
 
 test_task_4()
 
-
+###############################################
 ###     Task 5 - Working with dicts         ###
 ### Using the fruity_dict at the            ###
 ### top of the script, complete the tasks   ###
 ### that are indicated in the comments below###
+###############################################
 ###       Write your code below             ###
+###############################################
 
 ### Create a list that returns values from the dictionary and assign it to the variable below. Hint - you need a FOR loop.
 
@@ -190,7 +213,9 @@ dict_values =
 
 
 
+#############################################
 ###     DO NOT EDIT BELOW THIS LINE       ###
+#############################################
 
 print("Task 5 Results")
 
@@ -211,13 +236,14 @@ def test_task_5():
     
 test_task_5()
 
-
+###############################################
 ###     Task 6 - Iterating a string         ###
 ### Using the characters variable at the    ###
 ### top of the script, complete the tasks   ###
 ### that are indicated in the comments below###
+###############################################
 ###       Write your code below             ###
-
+###############################################
 
 #Iterate through the string and count how many "p"'s are in the string. Assign the answer to the variable below.
 
@@ -229,7 +255,9 @@ char_count =
 
 new_char_string = 
 
+#############################################
 ###     DO NOT EDIT BELOW THIS LINE       ### 
+#############################################
 
 print("Task 6 Results") 
 
@@ -250,19 +278,22 @@ def test_task_6():
 
 test_task_6()
 
-
+###############################################
 ###     Task 7 - Sets and Lists!            ###
 ### Using the setlist list at the           ###
 ### top of the script, complete the task    ###
 ### that is indicated in the comments below ###
+###############################################
 ###       Write your code below             ###
-
+###############################################
 
 #Cast the setlist as a set and then assign it to the variable below as a new list.
 
 new_setlist = 
 
+#############################################
 ###     DO NOT EDIT BELOW THIS LINE       ###
+#############################################
 
 print("Task 7 Results")
 
