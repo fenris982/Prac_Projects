@@ -60,8 +60,7 @@ def test_task_1():
     else:
         print('The variables are not assigned correctly. Recheck the instructions and try again! You got this!')
     return score
-        
-
+       
 test_task_1()
 
 ###############################################    
@@ -160,6 +159,7 @@ def test_task_3():
     else:
         print("You have not carried out the correct divide calculation. Try again!")
     return score
+
 test_task_3()
 
 ###############################################
@@ -326,13 +326,9 @@ def test_task_7():
     
 test_task_7()
 
-
-
 #############################################
 ###     DO NOT EDIT BELOW THIS LINE       ###
 #############################################
-
-
 
 def marking_scheme():
     mark_counter = 0
